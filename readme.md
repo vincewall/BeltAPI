@@ -1,6 +1,6 @@
 ![Cover banner](.github/cover.png)
 
-# Source code for my Fusion 360 Timing Belt Generator script
+# Source code for my Fusion 360 Timing Belt Generator
 
 This repo contains all the source code for my Fusion 360 script. The script is pretty robust, but far from perfect. It can generate most timing belt drives successfully, but there are edge cases that it cannot handle due to simplifying assumptions I made during development. 
 
