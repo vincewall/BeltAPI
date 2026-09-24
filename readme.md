@@ -17,4 +17,4 @@ More may be added in the future based on popular demand. You may also add your o
 
 Below is a video demonstrating the script in action. Note that the value entered for "toothed" pulleys is the physical tooth count, while the value entered for the "smooth" tensioner pulley is the desired diameter in mm.
 
-<video src=".github/example.mp4" width="100%" controls></video>
+[![Video Title](https://img.youtube.com/vi/3xQ5CADF-Zw/0.jpg)](https://www.youtube.com/watch?v=3xQ5CADF-Zw)
