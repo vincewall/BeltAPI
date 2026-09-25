@@ -1,6 +1,6 @@
 ![Cover banner](.github/cover.png)
 
-# Source code for my Fusion 360 Timing Belt Generator script
+# Source code for my Fusion 360 Timing Belt Generator
 
 This repo contains all the source code for my Fusion 360 script. The script is pretty robust, but far from perfect. It can generate most timing belt drives successfully, but there are edge cases that it cannot handle due to simplifying assumptions I made during development. 
 
@@ -17,4 +17,5 @@ More may be added in the future based on popular demand. You may also add your o
 
 Below is a video demonstrating the script in action. Note that the value entered for "toothed" pulleys is the physical tooth count, while the value entered for the "smooth" tensioner pulley is the desired diameter in mm.
 
-<video src=".github/example_video.mp4" width="100%" controls></video>
+<video src="https://github.com/user-attachments/assets/c4fbc2e5-757e-42ea-b348-9093ce6b3d49" width="100%" autoplay loop muted playsinline></video>
+
