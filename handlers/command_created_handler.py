@@ -46,7 +46,7 @@ class CommandCreatedHandler(adsk.core.CommandCreatedEventHandler):
             inputs = cmd.commandInputs
 
             # Set initial size of the dialog window
-            dialog_width = 360
+            dialog_width = 380
             cmd.setDialogInitialSize(dialog_width, 200)
             cmd.setDialogMinimumSize(dialog_width, 200)
 
