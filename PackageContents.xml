@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage 
+    SchemaVersion="1.0" 
+    AutodeskProduct="Fusion360" 
+    Name="Timing Belt Generator" 
+    Description="Generates timing belt paths for selected profiles" 
+    AppVersion="1.0.0" 
+    Author="Vincent Wallsten"
+    Icon="./Contents/resources/icon.svg"
+    ProductCode="{528be5d6-f831-46cc-805e-da471aa2bae3}"
+    UpgradeCode="{2ca42e49-0f62-44ff-aad6-285ad22cf1a4}">
+
+    <CompanyDetails 
+        Name="Vincent Wallsten" 
+        Url="https://github.com/vincewall/BeltAPI" 
+        Email="vincent.wallsten03@gmail.com" />
+
+    <RuntimeRequirements OS="Win64" Platform="Fusion" />
+
+    <Components>
+        <RuntimeRequirements OS="Win64" Platform="Fusion" />
+        <ComponentEntry 
+            AppName="Timing Belt Generator"
+            ModuleName="./Contents/TimingBeltGenerator.manifest" 
+            Version="1.0.0" />
+    </Components>
+
+</ApplicationPackage>

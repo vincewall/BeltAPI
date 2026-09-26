@@ -17,7 +17,9 @@ min_tooth_count = 6
 # Conversions
 to_mm = 10
 
-# Crosshair marker
+# Crosshair marker and banner images
 script_dir = os.path.dirname(os.path.realpath(__file__))
-crosshair_img_dir = os.path.join(script_dir, "crosshair.png")
-banner_img_dir = os.path.join(script_dir, "dialog_banner.png")
+parent_dir = os.path.dirname(script_dir)
+
+crosshair_img_dir = os.path.join(parent_dir, "resources", "crosshair.png")
+banner_img_dir = os.path.join(parent_dir, "resources", "dialog_banner.png")
